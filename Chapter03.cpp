@@ -2,6 +2,9 @@
 #include <vector>
 #include <string>
 #include <iostream>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
 
 using std::cin;
 using std::cout;
@@ -9,12 +12,17 @@ using std::endl;
 using std::string;
 using std::system;
 using std::vector;
+using std::printf;
 
 int main()
 {
-	
 	cout << "Hello World ! \nThis Program is for C++ Vector Learning \n" << endl;
 	cout << "There are 4 programs, please choose one of them: " << endl;
+	printf( "\nOptions:\n"
+				"	1. Grades Statistics\n"
+				"	2. Upper Words\n"
+				"	3. Sum Ints\n"
+				"	4. Double Vector\n" );
 
 	unsigned int programID;
 	cin >> programID;
