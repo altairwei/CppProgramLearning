@@ -14,6 +14,17 @@ using std::system;
 using std::vector;
 using std::printf;
 
+void array1() 
+{ // 练习 3.35 ：编写一段程序，利用指针将数组中的元素置为零
+
+
+}
+
+void array2() 
+{ // 练习 3.36 ：编写一段程序，比较两个数组是否相等。再写一段程序，比较两个vector对象是否相等
+
+}
+
 int main()
 {
 	cout << "Hello World ! \nThis Program is for C++ Vector Learning \n" << endl;
